@@ -1,0 +1,9 @@
+4. in task2,3,4, the task 2 uses signifinantly more number of interations. also the tour length is larger than the other two.
+the performance in task3 really depends signifinantly on the starting city. it is better than the task2 though.
+task 4 has a slight edge over the task3 and i taks 4 is better than the other two.
+
+6. in my case, task2 and task6 give exactly the same plot.
+
+7. they are exactly the same, i think 7 is better than 3 is general cases, but in this case, can't say anything. 
+
+8. exactly same. i think 8 is better than 3 but in this case in general, can't say anything.
