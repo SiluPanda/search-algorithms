@@ -10,8 +10,7 @@ import itertools
 import pdb
 from random import choice
 
-#########################################################################################################
-################# Provided code #########################################################################
+
 #########################################################################################################
 cities = 0
 nodeDict = {}
@@ -136,7 +135,7 @@ def generate2optNeighbours(tour):
 	global cities
 	all_possible_neighbours = []
 
-	"*** YOUR CODE HERE ***"
+	
 	for i in range(cities):
 		for j in range(i+2, cities):
 			#this condition ensures no repetition, the graph gets different if not added 
@@ -160,7 +159,7 @@ def generate3optNeighbours(tour):
 	global cities
 	all_possible_neighbours = []
 
-	"*** YOUR CODE HERE ***"
+	
 
 
 	#helper function to reverse a a part of a string
@@ -241,7 +240,7 @@ def generateRandomNeighbour(tour):
 	global cities
 	random_neighbour = []
 
-	"*** YOUR CODE HERE ***"
+	
 	
 
 	"*** --------------  ***"
@@ -253,7 +252,7 @@ def firstChoiceHillClimb(initial_tour,num_iter=100000):
 	tourLengthList = []
 	minTour = []
 
-	"*** YOUR CODE HERE ***"
+	
 	
 
 	"*** --------------  ***"
@@ -342,7 +341,7 @@ def eucledianTour(initial_city):
 	global unionFind, cities, nodeDict
 	edgeList = []
 
-	"*** YOUR CODE HERE ***"
+	
 	# part 1
 	for i in range(cities):
 		for j in range(i+1,cities):
@@ -373,11 +372,11 @@ def eucledianTour(initial_city):
 
 def finalOrder(minimum_spanning_tree, initial_city):
 	fin_order = []
-	"*** YOUR CODE HERE ***"
-	# for part 3
+	
+	
 
 	fin_order = []
-	"*** YOUR CODE HERE ***"
+	
 	adjacency_list = {}
 	for edge in minimum_spanning_tree:
 		if edge[0] not in adjacency_list:
@@ -402,8 +401,7 @@ def finalOrder(minimum_spanning_tree, initial_city):
 	return fin_order
 
  
-##################################################################################################
-####### DO NOT CHANGE THIS CODE ###########################################################################
+
 ###########################################################################################################
 def hillClimbWithNeacurr_ordertNeighbour(start_city, getNeighbours):
 	tour = neacurr_ordertNeighbourTour(start_city)
